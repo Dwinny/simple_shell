@@ -53,7 +53,7 @@ int _atoi(char *s)
 		{
 			g = 1;
 			r *= 10;
-			r += (s[i] - '0');
+			r += (s[y] - '0');
 		}
 		else if (g == 1)
 			g = 2;
