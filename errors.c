@@ -75,7 +75,7 @@ int _putsfd(char *str, int fd)
 		return (0);
 	while (*str)
 	{
-		i += _putfd(*str++, fd);
+		n += _putfd(*str++, fd);
 	}
-	return (i);
+	return (n);
 }
