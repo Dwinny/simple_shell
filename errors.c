@@ -4,7 +4,7 @@
  *  * _eputs - prints an input string
  *   * @str: the string to be printed
  *    * Return: 0
- *     */
+ */
 void _eputs(char *str)
 {
 	int s = 0;
@@ -23,7 +23,7 @@ void _eputs(char *str)
  *   * @c: The char to print
  *    * Return: 1 on success.
  *     * return -1 on error, and errno is set appropriately.
- *      */
+ */
 int _eputchar(char c)
 {
 	static int j;
@@ -45,7 +45,7 @@ int _eputchar(char c)
  *    * @fd: The fdescriptor to write to
  *     * Return:1 on success.
  *      * return -1 on error, and errno is set appropriately.
- *       */
+ */
 int _putfd(char c, int fd)
 {
 	static int m;
@@ -66,7 +66,7 @@ int _putfd(char c, int fd)
  *   * @str: the string to be printed
  *    * @fd: the fdescriptor to write to
  *     * Return: the num of chars put
- *      */
+ */
 int _putsfd(char *str, int fd)
 {
 	int n = 0;
