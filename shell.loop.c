@@ -5,7 +5,7 @@
  *   * @info: the param and R info structure
  *    * @av: the arg vector from main()
  *     * Return: 0 if it read success and 1 on err, or err code
- *      */
+ */
 int hsh(info_t *info, char **av)
 {
 	ssize_t m = 0;
@@ -49,7 +49,7 @@ int hsh(info_t *info, char **av)
  *     * return 0 if builtin execution is  successfull,
  *      * return 1 if builtin is found but not on success,
  *       * return 2 if it show builtin signal()
- *        */
+ */
 int find_builtin(info_t *info)
 {
 	int m, built_in_ret = -1;
@@ -79,7 +79,7 @@ int find_builtin(info_t *info)
  *  * find_cmd - finds a path in command
  *   * @info: the param & R info structure
  *    * Return: NULL
- *     */
+ */
 void find_cmd(info_t *info)
 {
 	char *path = NULL;
@@ -120,7 +120,7 @@ void find_cmd(info_t *info)
  *  * fork_cmd - forks an executed thread to run command
  *   * @info: the param & R info structure
  *    * Return: NULL
- *     */
+ */
 void fork_cmd(info_t *info)
 {
 	pid_t child_pid;
