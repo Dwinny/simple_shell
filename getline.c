@@ -6,7 +6,7 @@
  *    * @buf: address of buf
  *     * @len: address of len var
  *      * Return: bytes read
- *       */
+ */
 ssize_t input_buf(info_t *info, char **buf, size_t *len)
 {
 	ssize_t m = 0;
@@ -47,7 +47,7 @@ ssize_t input_buf(info_t *info, char **buf, size_t *len)
  *  * get_input - gets a line minus the newline
  *   * @info: parameter structure
  *    * Return: bytes read
- *     */
+ */
 ssize_t get_input(info_t *info)
 {
 	static char *buf; /* the ';' command chain buffer */
@@ -93,7 +93,7 @@ ssize_t get_input(info_t *info)
  *    * @buf: buffer
  *     * @i: size
  *      * Return: m
- *       */
+ */
 ssize_t read_buf(info_t *info, char *buf, size_t *i)
 {
 	ssize_t m = 0;
@@ -112,7 +112,7 @@ ssize_t read_buf(info_t *info, char *buf, size_t *i)
  *    * @ptr: address of pointer to buf, preallocated or NULL
  *     * @length: size of preallocated ptr buffer if not NULL
  *      * Return: a
- *       */
+ */
 int _getline(info_t *info, char **ptr, size_t *length)
 {
 	static char buf[READ_BUF_SIZE];
@@ -156,7 +156,7 @@ int _getline(info_t *info, char **ptr, size_t *length)
  *  * sigintHandler - blocks ctrl-C
  *   * @sig_num: the signal numb
  *    * Return: void
- *     */
+ */
 void sigintHandler(__attribute__((unused))int sig_num)
 {
 	_puts("\n");
