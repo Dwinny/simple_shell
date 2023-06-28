@@ -1,6 +1,6 @@
 #include "shell.h"
 /**
- * *_strcpy – copy of the str
+ * *_strcpy – copy of the string
  * *@dest: the dest
  * *@src: the src
  **
