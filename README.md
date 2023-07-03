@@ -2,5 +2,5 @@
 
 
 
-contibutor [RachealMERCY] (https://github.com/RachealMERCY)
+
 
